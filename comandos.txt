@@ -48,7 +48,9 @@ Para atualizar no computador principal usa o comando para puxar
 git pull origin master
 
 
-
+Comandos uteis
+git push -u origin main (usado para subir para o github)
+ 
 
 
 
