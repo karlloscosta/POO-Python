@@ -1,0 +1,59 @@
+COMANDOS DO GIT
+
+-Criar a pasta no PC
+-Abrir o terminal do GIT "Git bash Here" na pasta do arquivo
+-Checar o status com
+	git status
+-transformar a página em um repositório git com o comando
+	git init
+-Adicionar todos o arquivos ao repositório com o comando
+	git add .
+
+-Checar o status mais uma vez com
+	git status
+
+-Nomeando o commit com o comando
+	git commit -a -m "Descrição do commit"
+
+-Fazer login no GIT com
+	git config --global user.email "karllos.costa@alunos.ufersa.edu.br"
+	git config --global user.name "karlloscosta"
+
+-Criar novo repositório no Github
+	pegar o comando de vinculação
+	git remote add origin ...
+	colar no git bash com o botão direito
+
+-Subir para o Github
+	git push origin master
+
+-Para fazer alterações roda o comando de commit
+	git commit -a -m "Descrição do commit"
+	git push origin master
+
+-Se outra pasta foi adicionada é necessário varrer os arquivos novamente
+	git add .
+
+-Agora para fazer o novo commit 
+	git commit -a -m "novo commit"
+	git push origin master
+
+
+Usando outro computador
+	Ir em code dentro do repositório do github e copiar o endereço
+Para fazer o download 
+	git clone endereço copiado
+
+Para atualizar no computador principal usa o comando para puxar
+git pull origin master
+
+
+
+
+
+
+
+
+
+
+
